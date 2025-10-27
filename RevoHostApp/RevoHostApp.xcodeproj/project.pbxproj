@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54C702732EA37BD7006DD36D /* Revo.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 54C702492EA37BD7006DD36D /* Revo.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54C702292EA37AD6006DD36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C7020F2EA37AD5006DD36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C702162EA37AD5006DD36D;
+			remoteInfo = RevoHostApp;
+		};
+		54C702332EA37AD7006DD36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C7020F2EA37AD5006DD36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C702162EA37AD5006DD36D;
+			remoteInfo = RevoHostApp;
+		};
+		54C702712EA37BD7006DD36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C7020F2EA37AD5006DD36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C702482EA37BD7006DD36D;
+			remoteInfo = Revo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54C702792EA37BD7006DD36D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				54C702732EA37BD7006DD36D /* Revo.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54C702172EA37AD5006DD36D /* RevoHostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevoHostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C702282EA37AD6006DD36D /* RevoHostAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevoHostAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C702322EA37AD7006DD36D /* RevoHostAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevoHostAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C702492EA37BD7006DD36D /* Revo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Revo.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		54A4DF562EAA0BEA0057BC14 /* Exceptions for "Revo" folder in "RevoHostAppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Common/Audio Unit/RevoAudioUnit.swift",
+				Common/Parameters/ParameterSpecBase.swift,
+				Common/UI/AudioUnitViewController.swift,
+				Common/UI/ObservableAUParameter.swift,
+				Common/Utility/CrossPlatform.swift,
+				"Common/Utility/String+Utils.swift",
+				Info.plist,
+				Parameters/Parameters.swift,
+				README.md,
+				UI/ParameterCheckBox.swift,
+				UI/ParameterSlider.swift,
+				UI/RevoMainView.swift,
+			);
+			target = 54C702312EA37AD7006DD36D /* RevoHostAppUITests */;
+		};
+		54A4DF572EAA0BEA0057BC14 /* Exceptions for "Revo" folder in "Revo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Common/Audio Unit/RevoAudioUnit.swift",
+				Common/Parameters/ParameterSpecBase.swift,
+				Common/UI/AudioUnitViewController.swift,
+				Common/UI/ObservableAUParameter.swift,
+				Common/Utility/CrossPlatform.swift,
+				"Common/Utility/String+Utils.swift",
+				Parameters/Parameters.swift,
+				README.md,
+				UI/ParameterCheckBox.swift,
+				UI/ParameterSlider.swift,
+				UI/RevoMainView.swift,
+			);
+			target = 54C702482EA37BD7006DD36D /* Revo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		54A4DF582EAA0BEA0057BC14 /* Exceptions for "Revo" folder in "Copy Bundle Resources" phase from "Revo" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 54C702472EA37BD7006DD36D /* Resources */;
+			membershipExceptions = (
+				Common/DSP/RevoAUProcessHelper.hpp,
+				Common/DSP/RevoBufferedAudioBus.hpp,
+				DSP/RevoDSPKernel.hpp,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		54A4DF472EAA0BEA0057BC14 /* Revo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				54A4DF562EAA0BEA0057BC14 /* Exceptions for "Revo" folder in "RevoHostAppUITests" target */,
+				54A4DF572EAA0BEA0057BC14 /* Exceptions for "Revo" folder in "Revo" target */,
+				54A4DF582EAA0BEA0057BC14 /* Exceptions for "Revo" folder in "Copy Bundle Resources" phase from "Revo" target */,
+			);
+			path = Revo;
+			sourceTree = "<group>";
+		};
+		54C702192EA37AD5006DD36D /* RevoHostApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RevoHostApp;
+			sourceTree = "<group>";
+		};
+		54C7022B2EA37AD6006DD36D /* RevoHostAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RevoHostAppTests;
+			sourceTree = "<group>";
+		};
+		54C702352EA37AD7006DD36D /* RevoHostAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RevoHostAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C702142EA37AD5006DD36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C702252EA37AD6006DD36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C7022F2EA37AD7006DD36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C702462EA37BD7006DD36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54C7020E2EA37AD5006DD36D = {
+			isa = PBXGroup;
+			children = (
+				54C702192EA37AD5006DD36D /* RevoHostApp */,
+				54C7022B2EA37AD6006DD36D /* RevoHostAppTests */,
+				54C702352EA37AD7006DD36D /* RevoHostAppUITests */,
+				54A4DF472EAA0BEA0057BC14 /* Revo */,
+				54C702182EA37AD5006DD36D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54C702182EA37AD5006DD36D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C702172EA37AD5006DD36D /* RevoHostApp.app */,
+				54C702282EA37AD6006DD36D /* RevoHostAppTests.xctest */,
+				54C702322EA37AD7006DD36D /* RevoHostAppUITests.xctest */,
+				54C702492EA37BD7006DD36D /* Revo.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C702162EA37AD5006DD36D /* RevoHostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C7023C2EA37AD7006DD36D /* Build configuration list for PBXNativeTarget "RevoHostApp" */;
+			buildPhases = (
+				54C702132EA37AD5006DD36D /* Sources */,
+				54C702142EA37AD5006DD36D /* Frameworks */,
+				54C702152EA37AD5006DD36D /* Resources */,
+				54C702792EA37BD7006DD36D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C702722EA37BD7006DD36D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				54C702192EA37AD5006DD36D /* RevoHostApp */,
+			);
+			name = RevoHostApp;
+			packageProductDependencies = (
+			);
+			productName = RevoHostApp;
+			productReference = 54C702172EA37AD5006DD36D /* RevoHostApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54C702272EA37AD6006DD36D /* RevoHostAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C7023F2EA37AD7006DD36D /* Build configuration list for PBXNativeTarget "RevoHostAppTests" */;
+			buildPhases = (
+				54C702242EA37AD6006DD36D /* Sources */,
+				54C702252EA37AD6006DD36D /* Frameworks */,
+				54C702262EA37AD6006DD36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C7022A2EA37AD6006DD36D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				54C7022B2EA37AD6006DD36D /* RevoHostAppTests */,
+			);
+			name = RevoHostAppTests;
+			packageProductDependencies = (
+			);
+			productName = RevoHostAppTests;
+			productReference = 54C702282EA37AD6006DD36D /* RevoHostAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54C702312EA37AD7006DD36D /* RevoHostAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C702422EA37AD7006DD36D /* Build configuration list for PBXNativeTarget "RevoHostAppUITests" */;
+			buildPhases = (
+				54C7022E2EA37AD7006DD36D /* Sources */,
+				54C7022F2EA37AD7006DD36D /* Frameworks */,
+				54C702302EA37AD7006DD36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C702342EA37AD7006DD36D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				54A4DF472EAA0BEA0057BC14 /* Revo */,
+				54C702352EA37AD7006DD36D /* RevoHostAppUITests */,
+			);
+			name = RevoHostAppUITests;
+			packageProductDependencies = (
+			);
+			productName = RevoHostAppUITests;
+			productReference = 54C702322EA37AD7006DD36D /* RevoHostAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		54C702482EA37BD7006DD36D /* Revo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C702752EA37BD7006DD36D /* Build configuration list for PBXNativeTarget "Revo" */;
+			buildPhases = (
+				54C702452EA37BD7006DD36D /* Sources */,
+				54C702462EA37BD7006DD36D /* Frameworks */,
+				54C702472EA37BD7006DD36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Revo;
+			packageProductDependencies = (
+			);
+			productName = Revo;
+			productReference = 54C702492EA37BD7006DD36D /* Revo.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C7020F2EA37AD5006DD36D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					54C702162EA37AD5006DD36D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					54C702272EA37AD6006DD36D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 54C702162EA37AD5006DD36D;
+					};
+					54C702312EA37AD7006DD36D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 54C702162EA37AD5006DD36D;
+					};
+					54C702482EA37BD7006DD36D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 54C702122EA37AD5006DD36D /* Build configuration list for PBXProject "RevoHostApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54C7020E2EA37AD5006DD36D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 54C702182EA37AD5006DD36D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C702162EA37AD5006DD36D /* RevoHostApp */,
+				54C702272EA37AD6006DD36D /* RevoHostAppTests */,
+				54C702312EA37AD7006DD36D /* RevoHostAppUITests */,
+				54C702482EA37BD7006DD36D /* Revo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C702152EA37AD5006DD36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C702262EA37AD6006DD36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C702302EA37AD7006DD36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C702472EA37BD7006DD36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C702132EA37AD5006DD36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C702242EA37AD6006DD36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C7022E2EA37AD7006DD36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C702452EA37BD7006DD36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C7022A2EA37AD6006DD36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C702162EA37AD5006DD36D /* RevoHostApp */;
+			targetProxy = 54C702292EA37AD6006DD36D /* PBXContainerItemProxy */;
+		};
+		54C702342EA37AD7006DD36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C702162EA37AD5006DD36D /* RevoHostApp */;
+			targetProxy = 54C702332EA37AD7006DD36D /* PBXContainerItemProxy */;
+		};
+		54C702722EA37BD7006DD36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C702482EA37BD7006DD36D /* Revo */;
+			targetProxy = 54C702712EA37BD7006DD36D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54C7023A2EA37AD7006DD36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54C7023B2EA37AD7006DD36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		54C7023D2EA37AD7006DD36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RevoHostApp/RevoHostApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RevoHostApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nyuu.RevoHostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		54C7023E2EA37AD7006DD36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RevoHostApp/RevoHostApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RevoHostApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nyuu.RevoHostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		54C702402EA37AD7006DD36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nyuu.RevoHostAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		54C702412EA37AD7006DD36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nyuu.RevoHostAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		54C702432EA37AD7006DD36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nyuu.RevoHostAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = RevoHostApp;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		54C702442EA37AD7006DD36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nyuu.RevoHostAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = RevoHostApp;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		54C702762EA37BD7006DD36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Revo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Revo;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nyuu.RevoHostApp.Revo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Revo/Common/Revo-Bridging-Header.h";
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		54C702772EA37BD7006DD36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Revo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Revo;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nyuu.RevoHostApp.Revo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Revo/Common/Revo-Bridging-Header.h";
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C702122EA37AD5006DD36D /* Build configuration list for PBXProject "RevoHostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C7023A2EA37AD7006DD36D /* Debug */,
+				54C7023B2EA37AD7006DD36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C7023C2EA37AD7006DD36D /* Build configuration list for PBXNativeTarget "RevoHostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C7023D2EA37AD7006DD36D /* Debug */,
+				54C7023E2EA37AD7006DD36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C7023F2EA37AD7006DD36D /* Build configuration list for PBXNativeTarget "RevoHostAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C702402EA37AD7006DD36D /* Debug */,
+				54C702412EA37AD7006DD36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C702422EA37AD7006DD36D /* Build configuration list for PBXNativeTarget "RevoHostAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C702432EA37AD7006DD36D /* Debug */,
+				54C702442EA37AD7006DD36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C702752EA37BD7006DD36D /* Build configuration list for PBXNativeTarget "Revo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C702762EA37BD7006DD36D /* Debug */,
+				54C702772EA37BD7006DD36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54C7020F2EA37AD5006DD36D /* Project object */;
+}
